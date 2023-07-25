@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4e24150-4a41-4c6b-9217-907f03d66905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/org/example/ETL.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/org/example/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/org/example/Table1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/org/example/Table2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Scala/org/example/driver.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/org/example/ETL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/org/example/ETL.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/org/example/Table1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/org/example/Table1.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -127,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689840215626</updated>
-      <workItem from="1689840216936" duration="78592000" />
+      <workItem from="1689840216936" duration="79919000" />
     </task>
     <servers />
   </component>
