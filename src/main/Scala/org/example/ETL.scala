@@ -18,7 +18,7 @@ object ETL extends driver {
     val current_time = LocalDateTime.now.toString
     val percent = df1.agg(expr("percentile(score,0.99)").as("99_percentile_score"), expr("percentile(price,0.99)").as("99_percentile_price"))
     percent.show()
-    val df3 = df1.withColumn("attributeCount", size(split(col("attribute"),","))-1)
+    val df3 = df1.withColumn("attributeCount", size(split(col("attribute")," "))-1)
       .withColumn("is_expired", when(col("expiry")>current_time,0).otherwise(1))
     val dataset_3 = df3.groupBy("genre_id").agg(avg("attributeCount") as "avg_attribute", (sum("is_expired")/count("is_expired"))*100 as "percentage_Expired",
       avg("price") as "avg_cost")

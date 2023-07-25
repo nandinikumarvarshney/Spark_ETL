@@ -20,7 +20,7 @@ object Table1 {
       val length = random.nextInt(10) + 1
       for (j <- 1 to length) {
         //string_created += random.nextString(a)
-        string_created += random.alphanumeric.take(a).mkString + ","
+        string_created += random.alphanumeric.take(a).mkString + " "
       }
       return string_created
     }
@@ -28,7 +28,7 @@ object Table1 {
     for (i <- 1 to numofRows) {
       val uuid = UUID.randomUUID().toString
       val score = random.nextInt(1000) + 1
-      val price = random.nextFloat() * 100
+      val price = random.nextFloat() * 100 + 1
       val a = random.nextInt(10) + 1
       val attribute = generateRandomListofStrings(a)
       val creationTimeStamp = System.currentTimeMillis
